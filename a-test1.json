@@ -1,0 +1,10 @@
+{
+    "ContactFlow": {
+        "Arn": "arn:aws:connect:us-east-1:357837012270:instance/662de594-7bab-4713-952b-2b4cb16f2724/contact-flow/3b0db24a-c113-4847-8857-113c2c064131",
+        "Id": "3b0db24a-c113-4847-8857-113c2c064131",
+        "Name": "A-Test",
+        "Type": "CONTACT_FLOW",
+        "Content": "{\"Version\":\"2019-10-30\",\"StartAction\":\"017e1fc9-ddc7-4902-8810-e38ce29e141c\",\"Metadata\":{\"entryPointPosition\":{\"x\":20,\"y\":20},\"snapToGrid\":false,\"ActionMetadata\":{\"017e1fc9-ddc7-4902-8810-e38ce29e141c\":{\"position\":{\"x\":196,\"y\":130},\"useDynamic\":false,\"promptName\":\"Beep.wav\"},\"629780d0-0374-49b8-a90f-66c3a2fcec39\":{\"position\":{\"x\":475,\"y\":152}}}},\"Actions\":[{\"Identifier\":\"017e1fc9-ddc7-4902-8810-e38ce29e141c\",\"Parameters\":{\"PromptId\":\"arn:aws:connect:us-east-1:357837012270:instance/662de594-7bab-4713-952b-2b4cb16f2724/prompt/ad8696fc-5840-4c3d-9833-f4b59dfb6ff5\"},\"Transitions\":{\"NextAction\":\"629780d0-0374-49b8-a90f-66c3a2fcec39\",\"Errors\":[],\"Conditions\":[]},\"Type\":\"MessageParticipant\"},{\"Identifier\":\"629780d0-0374-49b8-a90f-66c3a2fcec39\",\"Type\":\"DisconnectParticipant\",\"Parameters\":{},\"Transitions\":{}}]}",
+        "Tags": {}
+    }
+}
