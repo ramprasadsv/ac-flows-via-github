@@ -21,10 +21,15 @@ pipeline {
       
         stage('git repo & clean') {
             steps {
-                   sh(script: "rm -r ac-flows-via-github", returnStdout: true)
-                   sh(script: "git clone https://github.com/ramprasadsv/ac-flows-via-github.git", returnStdout: true)
-                   sh(script: "ls -ltr", returnStatus: true)
-                   
+              script{
+                try{
+                  sh(script: "rm -r ac-flows-via-github", returnStdout: true)
+                }catch(Exception e){
+                  println ("Exception occured " + e.toString()
+                }
+                sh(script: "git clone https://github.com/ramprasadsv/ac-flows-via-github.git", returnStdout: true)
+                sh(script: "ls -ltr", returnStatus: true)
+              }
             }
         }
       
