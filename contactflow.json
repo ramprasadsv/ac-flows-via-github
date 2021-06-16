@@ -1,0 +1,12 @@
+{
+  "ContactFlow" : {
+    "Arn" : "arn:aws:connect:us-east-1:357837012270:instance/27d2966e-085a-49f3-85e2-20e57b4ccefb/contact-flow/f6a2cc87-840e-40e3-8403-db6c3265c62e",
+    "Id" : "f6a2cc87-840e-40e3-8403-db6c3265c62e",
+    "Name" : "A-Test",
+    "Type" : "CONTACT_FLOW",
+    "Status" : null,
+    "Description" : null,
+    "Content" : "{\"Version\":\"2019-10-30\",\"StartAction\":\"dd391928-9d15-43f9-ba31-a11821212068\",\"Metadata\":{\"entryPointPosition\":{\"x\":20,\"y\":20},\"snapToGrid\":false,\"ActionMetadata\":{\"dd391928-9d15-43f9-ba31-a11821212068\":{\"position\":{\"x\":211,\"y\":35},\"useDynamic\":false,\"promptName\":\"Beep.wav\"},\"089c12ea-1f34-43e3-b0f4-465e23956b2d\":{\"position\":{\"x\":449,\"y\":39},\"useDynamic\":false,\"queue\":{\"id\":\"arn:aws:connect:us-east-1:357837012270:instance/27d2966e-085a-49f3-85e2-20e57b4ccefb/queue/bbe2a92c-6d50-432a-9a83-3b1b384bf271\",\"text\":\"BasicQueue\"}},\"41a19aed-b0a6-4580-b758-b8e1b88c5b66\":{\"position\":{\"x\":759,\"y\":53}}}},\"Actions\":[{\"Identifier\":\"dd391928-9d15-43f9-ba31-a11821212068\",\"Parameters\":{\"PromptId\":\"arn:aws:connect:us-east-1:357837012270:instance/27d2966e-085a-49f3-85e2-20e57b4ccefb/prompt/f3e8f8a3-ced5-489d-ad9f-9d044cb4437f\"},\"Transitions\":{\"NextAction\":\"089c12ea-1f34-43e3-b0f4-465e23956b2d\",\"Errors\":[],\"Conditions\":[]},\"Type\":\"MessageParticipant\"},{\"Identifier\":\"089c12ea-1f34-43e3-b0f4-465e23956b2d\",\"Parameters\":{\"QueueId\":\"arn:aws:connect:us-east-1:357837012270:instance/27d2966e-085a-49f3-85e2-20e57b4ccefb/queue/bbe2a92c-6d50-432a-9a83-3b1b384bf271\"},\"Transitions\":{\"NextAction\":\"41a19aed-b0a6-4580-b758-b8e1b88c5b66\",\"Errors\":[{\"NextAction\":\"41a19aed-b0a6-4580-b758-b8e1b88c5b66\",\"ErrorType\":\"NoMatchingError\"}],\"Conditions\":[]},\"Type\":\"UpdateContactTargetQueue\"},{\"Identifier\":\"41a19aed-b0a6-4580-b758-b8e1b88c5b66\",\"Type\":\"DisconnectParticipant\",\"Parameters\":{},\"Transitions\":{}}]}",
+    "Tags" : { }
+  }
+}
