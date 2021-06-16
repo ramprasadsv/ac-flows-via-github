@@ -1,10 +1,12 @@
 {
-    "ContactFlow": {
-        "Arn": "arn:aws:connect:us-east-1:357837012270:instance/662de594-7bab-4713-952b-2b4cb16f2724/contact-flow/3b0db24a-c113-4847-8857-113c2c064131",
-        "Id": "3b0db24a-c113-4847-8857-113c2c064131",
-        "Name": "A-Test",
-        "Type": "CONTACT_FLOW",
-        "Content": "{\"Version\":\"2019-10-30\",\"StartAction\":\"017e1fc9-ddc7-4902-8810-e38ce29e141c\",\"Metadata\":{\"entryPointPosition\":{\"x\":20,\"y\":20},\"snapToGrid\":false,\"ActionMetadata\":{\"017e1fc9-ddc7-4902-8810-e38ce29e141c\":{\"position\":{\"x\":196,\"y\":130},\"useDynamic\":false,\"promptName\":\"Beep.wav\"},\"629780d0-0374-49b8-a90f-66c3a2fcec39\":{\"position\":{\"x\":475,\"y\":152}}}},\"Actions\":[{\"Identifier\":\"017e1fc9-ddc7-4902-8810-e38ce29e141c\",\"Parameters\":{\"PromptId\":\"arn:aws:connect:us-east-1:357837012270:instance/662de594-7bab-4713-952b-2b4cb16f2724/prompt/ad8696fc-5840-4c3d-9833-f4b59dfb6ff5\"},\"Transitions\":{\"NextAction\":\"629780d0-0374-49b8-a90f-66c3a2fcec39\",\"Errors\":[],\"Conditions\":[]},\"Type\":\"MessageParticipant\"},{\"Identifier\":\"629780d0-0374-49b8-a90f-66c3a2fcec39\",\"Type\":\"DisconnectParticipant\",\"Parameters\":{},\"Transitions\":{}}]}",
-        "Tags": {}
-    }
+  "ContactFlow" : {
+    "Arn" : "arn:aws:connect:us-east-1:357837012270:instance/662de594-7bab-4713-952b-2b4cb16f2724/contact-flow/3b0db24a-c113-4847-8857-113c2c064131",
+    "Id" : "3b0db24a-c113-4847-8857-113c2c064131",
+    "Name" : "A-Test",
+    "Type" : "CONTACT_FLOW",
+    "Status" : null,
+    "Description" : null,
+    "Content" : "{\"Version\":\"2019-10-30\",\"StartAction\":\"d18cfee5-5261-42ed-a8da-886486e9d52f\",\"Metadata\":{\"entryPointPosition\":{\"x\":20,\"y\":20},\"snapToGrid\":false,\"ActionMetadata\":{\"629780d0-0374-49b8-a90f-66c3a2fcec39\":{\"position\":{\"x\":793,\"y\":132}},\"e7d6ee62-30c2-4df4-9788-7d8634678443\":{\"position\":{\"x\":440,\"y\":102},\"useDynamic\":false,\"queue\":{\"id\":\"arn:aws:connect:us-east-1:357837012270:instance/662de594-7bab-4713-952b-2b4cb16f2724/queue/10aad767-7be6-4d53-aabe-3b4622431b6c\",\"text\":\"BasicQueue\"}},\"d18cfee5-5261-42ed-a8da-886486e9d52f\":{\"position\":{\"x\":205,\"y\":123},\"useDynamic\":false,\"promptName\":\"Beep.wav\"}}},\"Actions\":[{\"Identifier\":\"629780d0-0374-49b8-a90f-66c3a2fcec39\",\"Type\":\"DisconnectParticipant\",\"Parameters\":{},\"Transitions\":{}},{\"Identifier\":\"e7d6ee62-30c2-4df4-9788-7d8634678443\",\"Parameters\":{\"QueueId\":\"arn:aws:connect:us-east-1:357837012270:instance/662de594-7bab-4713-952b-2b4cb16f2724/queue/10aad767-7be6-4d53-aabe-3b4622431b6c\"},\"Transitions\":{\"NextAction\":\"629780d0-0374-49b8-a90f-66c3a2fcec39\",\"Errors\":[{\"NextAction\":\"629780d0-0374-49b8-a90f-66c3a2fcec39\",\"ErrorType\":\"NoMatchingError\"}],\"Conditions\":[]},\"Type\":\"UpdateContactTargetQueue\"},{\"Identifier\":\"d18cfee5-5261-42ed-a8da-886486e9d52f\",\"Parameters\":{\"PromptId\":\"arn:aws:connect:us-east-1:357837012270:instance/662de594-7bab-4713-952b-2b4cb16f2724/prompt/ad8696fc-5840-4c3d-9833-f4b59dfb6ff5\"},\"Transitions\":{\"NextAction\":\"e7d6ee62-30c2-4df4-9788-7d8634678443\",\"Errors\":[],\"Conditions\":[]},\"Type\":\"MessageParticipant\"}]}",
+    "Tags" : { }
+  }
 }
