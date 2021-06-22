@@ -85,9 +85,7 @@ pipeline {
 
         stage('test the flow using Cyara') {
             steps{
-                node {
                     def job = build job: 'Cyara Test Job'
-                }
             }
         }
         
