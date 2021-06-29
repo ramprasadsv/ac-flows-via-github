@@ -1,10 +1,10 @@
 [
     {
       "sourceARN": "arn:aws:connect:us-east-1:357837012270:instance/f7853116-41c8-4c6d-9180-75ce93479303/prompt/88b2409f-59be-4c49-8fdb-443609a14bc7",
-      "targetARN": "arn:aws:connect:us-east-1:357837012270:instance/36ee9585-4d29-4937-b49c-ae5f698a5e59/prompt/8663b732-9b4a-4453-a882-7583cd7277a3"
+      "targetARN": "arn:aws:connect:us-east-1:357837012270:instance/df72ae01-4c81-473c-98dd-58d40cd9fffa/prompt/4096c3f3-ca85-4a03-852a-6b57d70c88ad"
     },
     {
       "sourceARN": "arn:aws:connect:us-east-1:357837012270:instance/f7853116-41c8-4c6d-9180-75ce93479303/queue/caa19c61-c381-4e90-b689-aa2d83c8fd63",
-      "targetARN": "arn:aws:connect:us-east-1:357837012270:instance/36ee9585-4d29-4937-b49c-ae5f698a5e59/queue/13ab7788-86f4-4aa5-b969-650d2d845fd4"
+      "targetARN": "arn:aws:connect:us-east-1:357837012270:instance/df72ae01-4c81-473c-98dd-58d40cd9fffa/queue/9ebe5672-f020-446c-bfa3-a18a59597df0"
     }
  ]
