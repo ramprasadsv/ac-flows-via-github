@@ -85,8 +85,8 @@ pipeline {
 
         stage('test the flow using Cyara') {
             steps{
-                  sleep(time:60,unit:"SECONDS")
-                  build job: 'Cyara Test Job', propagate: true, wait: true
+                  //sleep(time:60,unit:"SECONDS")
+                  //build job: 'Cyara Test Job', propagate: true, wait: true
             }
         }
         
